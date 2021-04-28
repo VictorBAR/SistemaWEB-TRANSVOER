@@ -1,0 +1,266 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.cabecario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1733;
+
+    padding: 10px;
+    color: white;
+}
+
+#atalhos {
+    justify-content: space-around;
+}
+
+.cabecario a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.cabecario a:hover {
+    color:#163295;
+    
+}
+
+.logo-img {
+    height: 100px;
+    width: 300px;
+    padding-left: 55px;
+}
+
+/*conteudo da pagina inicia*/
+
+main .container{
+    color: white;
+    font-size: 30px;
+    background:url(img/bg-tela-inicial.png);
+    background-size: cover;
+    height: 78vh;
+    padding-left: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.container .conteudo-apresentacao {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+
+.botao {
+    text-decoration: none;
+    background-color:#163295;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.botao:hover{
+    background-color: #0F1733;
+}
+
+/*quem somos pagina inicial*/
+
+article .quem-somos {
+    /* background:  linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)100%), url(img/W0pP\ 1.png); */
+    background: linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)100%), url(img/containers.gif) ;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+
+    color: white;
+    font-size: 30px;
+
+    padding-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+/*
+.quem-somos h2 {
+    padding-bottom: 40px;
+}
+*/
+.quem-somos p {
+    font-size: 20px;
+}
+
+.quem-somos .conteudo {
+    width: 860px;
+    padding-bottom: 35px;
+    
+}
+
+article .conteudo-2 {
+    background: #0F1733;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50vh;
+    
+}
+
+article .conteudo-2 img{
+    height: 270px;
+    width: 620px;
+}
+
+/*tela beneficios*/
+
+.Tela-beneficios {
+    /* height: 300px;  ao determiar essa alura o aminha proima divisao ira ficar em a baio dessa
+    determinacao, mesmo que ela não esteja sendo comprida*/
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: 80px;
+
+}
+
+.Tela-beneficios .conteudo {
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+    width: 700px;
+    padding-top: 50px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+}
+
+.Tela-beneficios .beneficios .imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tela-beneficios .beneficios .imagem {
+    height: 300px;
+    margin-left: 50px;
+}
+
+/* .beneficios .descricao-beneficios {
+    display: flex;
+    flex-direction: column;
+} */
+
+.descricao-beneficios .lista-beneficios li {
+    padding-bottom: 60px;
+    font-size: 18px;
+    list-style: none;
+}
+
+/*tela suporte*/
+
+.tela-suporte {
+    
+    
+    /* background-color: #163295;
+    background-image: url(img/giphy\ 1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto; */
+
+
+    /* background-color: #163295; 
+    mix-blend-mode: url(img/giphy\ 1.png); */
+    /* background-image: url(img/giphy\ 1.png);
+    border-bottom: solid #0F1733 200px; */
+    background-color: #0F1733;
+    /* padding-bottom: 100px; */
+    height: 500px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tela-suporte .questionario{
+    /* background-color: white ; */
+    font-size: 20px;
+    background-color: white;
+    border: solid black;
+    height: 450px;
+    width: 350px;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.questionario h3{
+    font-size: 25px;
+}
+
+.questionario p {
+    font-size: 15px;
+    padding-top: 14px;
+}
+
+.questionario input{
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+.questionario .botao-ajuda {
+    padding: 10px 60px 10px 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #163295;
+    color: white;
+    
+}
+
+.questionario .botao-ajuda:hover {
+    background: #0F1733;
+}
+
+.tela-suporte .entre-em-contato h3{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 48px;
+}
+
+.tela-suporte .entre-em-contato p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 48px;
+}
+
+.rodape {
+    background-color: #0F1733;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    /* padding-bottom: 20px; */
+}
+
