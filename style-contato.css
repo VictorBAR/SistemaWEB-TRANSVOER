@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+.sub-header{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url(img/pexels-photo-1427107.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 530px;
+}
+
+.sub-header .informacao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    padding-left: 100px;
+}
+
+.sub-header .informacao h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.sub-header .informacao p{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+/*formulario*/
+
+.formulario {
+    height: 900px;
+    /* background: url(img/7f99cbd17100174bb26d9433e7ed1388.jpg); */
+}
+
+.formulario-header h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.formulario-header p {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.formulario .formulario-entradas {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.formulario .formulario-entradas .entradas p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.formulario .formulario-entradas .entradas input{
+    border: solid 1px gray;
+    width: 90%;
+    height: 40px;
+}
+
+.formulario .formulario-entradas .entradas textarea{
+    border: solid 1px gray;
+    width: 90%;
+    height: 80px;
+}
+
+.formulario .formulario-entradas .botao-formulario {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}

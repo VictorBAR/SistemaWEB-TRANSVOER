@@ -29,7 +29,7 @@
 }
 
 .cabecario a:hover {
-    color:#163295;
+    color: rgba(0, 195, 255, 0.986);
     
 }
 
@@ -81,9 +81,14 @@ main .container{
 
 /*quem somos pagina inicial*/
 
+/* #video {
+    position: fixed;
+    z-index: -1;
+} */
+
 article .quem-somos {
     /* background:  linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)100%), url(img/W0pP\ 1.png); */
-    background: linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)100%), url(img/containers.gif) ;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)100%), url(img/pexels-photo-3057960.jpeg) ;
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -231,7 +236,7 @@ article .conteudo-2 img{
     border-bottom: black solid 1px;
 }
 
-.questionario .botao-ajuda {
+.botao-ajuda {
     padding: 10px 60px 10px 60px;
     margin-top: 20px;
     text-decoration: none;
@@ -240,7 +245,7 @@ article .conteudo-2 img{
     
 }
 
-.questionario .botao-ajuda:hover {
+.botao-ajuda:hover {
     background: #0F1733;
 }
 
@@ -250,7 +255,7 @@ article .conteudo-2 img{
     padding-bottom: 48px;
 }
 
-.tela-suporte .entre-em-contato p{
+.entre-em-contato p{
     color: white;
     font-size: 18px;
     padding-bottom: 48px;

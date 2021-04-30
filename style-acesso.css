@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+/*cadastro*/
+
+.container-cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    font-weight: 700;
+    /* box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.container-cadastro .acesso {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+.container-cadastro .acesso .cabecario-acesso h1{
+    padding-bottom: 15px;
+    color: #0F1733;
+    font-size: 30px;
+}
+
+.container-cadastro .acesso .cabecario-acesso p {
+    padding-bottom: 40px;
+}
+
+/* .container-cadastro h2 {
+    color: black;
+} */
+
+.container-cadastro .acesso .dados-acesso h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #0F1733;
+}
+
+
+.container-cadastro .acesso .input{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.container-cadastro .acesso .input .esqueceu-senha{
+    color: rgba(255, 0, 0, 0.822);
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.container-cadastro .acesso .input .esqueceu-senha:hover{
+    color: rgb(255, 0, 0);
+}
+
+.botao-cadastro {
+    text-decoration: none;
+    color: white;
+    background: #0F1733;
+    padding: 10px 60px 10px 50px;
+}
+
+.botao-cadastro:hover {
+    background: #1565C0;
+}
+
+.entrada-de-dados{
+   border: 0;
+   background: #F3F3F3;
+   padding: 15px 150px 15px 15px;
+   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*cadastro*/
+
+
+.container-cadastro .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 350px;
+    border-left: black solid 1px;
+    padding-left: 60px;
+}
+
+.container-cadastro .cadastro h2{
+    color: #0F1733;
+}
+
+/* .container-cadastro .cadastro .pessoa-j{
+    background: #F3F3F3;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.container-cadastro .cadastro .pessoa{
+    background: #F3F3F3;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-cadastro .cadastro  a{
+    text-decoration: none;
+    color: #1565C0;
+
+}
