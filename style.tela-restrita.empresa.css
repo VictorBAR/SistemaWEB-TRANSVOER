@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main .container{
+    color: white;
+    font-size: 30px;
+    background:url(img/bg-tela-restrita.png);
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    width: 100vw;
+    padding-left: 80px;
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-weight: 700;
+    line-height: 60px; */
+
+}
+ 
+main .apresentacao .container {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+main .apresentacao .container .campo-imagem {
+    padding-right: 40px;
+}
+
+.area-cadastro-carga {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    padding-top: 2%;
+    /* align-items: flex-start; */
+    
+}
+
+.area-cadastro-carga .cadastro-carga{
+    padding-left: 7%;
+}
+
+.area-cadastro-carga .cadastro-carga p {
+    padding-top: 3%;
+}
+
+.area-cadastro-carga .cadastro-carga input{
+    background-color: #0F1733;
+    line-height: 20px;
+    /* padding-top: 8px; */
+    color: white;
+}
+
+.area-cadastro-carga .cadastro-carga select {
+    background-color: #0F1733;
+    line-height: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.area-cadastro-carga .manifesto-carga {
+    padding-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-cadastro-carga .manifesto-carga input {
+    padding-top: 15px;
+}
+
+.area-cadastro-carga .manifesto-carga div {
+    padding-top: 50px;
+}
+
+/* media queries */
+
+@media(max-width: 1024px) {
+    /* .area-cadastro-carga {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
+
+    .area-cadastro-carga .manifesto-carga {
+        padding-right: 10%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+}
+
