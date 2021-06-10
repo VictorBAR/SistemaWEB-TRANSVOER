@@ -115,3 +115,7 @@
     color: #1565C0;
 
 }
+
+.errorInput{
+    border: 2px solid red !important;
+}

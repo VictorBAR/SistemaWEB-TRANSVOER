@@ -1,0 +1,33 @@
+.cadastro-carga p{
+    padding: 20px;
+    background-color: #0F1733;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-carga a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.caixa-2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.caixa-2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.caixa-2 p{
+    /* background-color: gray; */
+    padding: 20px;
+
+}

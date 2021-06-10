@@ -14,26 +14,31 @@
        <img src="img/logo.3.png"  class="logo-img">
        <div>
             <a href="index.html">Inicio</a>
-            <a href="">Conheça a transvoer</a>
+            <a>Conheça a transvoer</a>
             <a href="contato.html">Contato</a>
        </div>
    </header>
    <section class="container-cadastro">
        <div class="acesso">
-           <div class="cabecario-acesso">
+            <span id=""></span>          
+            <div class="cabecario-acesso">
                 <h1>Acesse a TRANSVOER</h1>
                 <p>Utilize seus dados de acesso nos campos abaixo:</p>
             </div>
+ 
             <div class="dados-acesso">
+                <span id="mensagem-erro" style="color: red; font-weight: 100; font-style: italic;"></span>
                 <h3>Digite seu nome de usuário ou email:</h3>
-                <input type="text" name="" id="" placeholder="Usuário ou email" class="entrada-de-dados">
+                <input type="text" id="email" placeholder="Usuário ou email" class="entrada-de-dados">
                 <h3>Digite sua senha:</h3>
-                <input type="password" name="" id="" placeholder="senha" class="entrada-de-dados">
+                <input type="password" id="senha" placeholder="senha" class="entrada-de-dados">
             </div> 
+
             <div class="input">
-                <a href="telaRestritaEmpresa.html" class="botao-cadastro">Acessar</a>
-                <a href=""class="esqueceu-senha">Esqueci minha senha</a>
+                <a onclick="logar()" class="botao-cadastro">Acessar</a>
+                <a class="esqueceu-senha">Esqueci minha senha</a>
             </div>
+ 
        </div>
        <div class="cadastro">
             <h2>Não Possui Cadastro?</h2>
@@ -70,5 +75,6 @@
    <div class="rodape">
         <p>Copyright © 2021 - Todos Os Direitos Reservados - TRANSVOER  Exportação e Importação</p>
     </div>
+    <script src="js/acesso.js"></script>
 </body>
 </html>
