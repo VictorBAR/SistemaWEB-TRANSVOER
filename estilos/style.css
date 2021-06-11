@@ -44,7 +44,7 @@
 main .container{
     color: white;
     font-size: 30px;
-    background:url(img/bg-tela-inicial.png);
+    background:url(../img/bg-tela-inicial.png);
     background-size: cover;
     height: 78vh;
     /* width: 100vw; */
@@ -90,7 +90,7 @@ main .container{
 
 article .quem-somos {
     /* background:  linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.42)100%), url(img/W0pP\ 1.png); */
-    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)100%), url(img/pexels-photo-3057960.jpeg) ;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)100%), url(../img/pexels-photo-3057960.jpeg) ;
     background-size: cover;
     background-position: center center;
     height: 400px;

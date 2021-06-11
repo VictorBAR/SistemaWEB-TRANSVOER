@@ -6,7 +6,7 @@ body {
 main .container{
     color: white;
     font-size: 30px;
-    background:url(img/bg-tela-restrita.png);
+    background:url(../img/bg-tela-restrita.png);
     background-size: cover;
     background-position: center center;
     height: 30vh;

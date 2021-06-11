@@ -4,7 +4,7 @@
 }
 
 .sub-header{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url(img/pexels-photo-1427107.jpeg);
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url(../img/pexels-photo-1427107.jpeg);
     background-size: cover;
     background-position: center center;
     height: 530px;
